@@ -1,0 +1,39 @@
+.header {
+    padding: 30px 0;
+    background-color: $accent-bg;
+
+    & .container {
+        padding: 0 70px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo {}
+
+    &__list {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+        margin-right: 60px;
+        gap: 73px;
+    }
+
+    &__item {}
+
+    &__link {
+        color: $title-color;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    &__btn {
+        color: $bg-color;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.2;
+        padding: 16px 26px;
+        background-color: $title-color;
+        border-radius: 8px;
+    }
+}
